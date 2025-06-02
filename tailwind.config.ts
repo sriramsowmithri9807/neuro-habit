@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// NeuroHabits custom colors
+				neural: {
+					50: '#f0f9ff',
+					100: '#e0f2fe',
+					500: '#0ea5e9',
+					600: '#0284c7',
+					700: '#0369a1',
+					900: '#0c4a6e',
+				},
+				habit: {
+					50: '#f0fdf4',
+					100: '#dcfce7',
+					500: '#22c55e',
+					600: '#16a34a',
+					700: '#15803d',
+					900: '#14532d',
 				}
 			},
 			borderRadius: {
@@ -84,11 +102,38 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-soft': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' },
+				},
+				'gradient-x': {
+					'0%, 100%': {
+						'background-size': '200% 200%',
+						'background-position': 'left center'
+					},
+					'50%': {
+						'background-size': '200% 200%',
+						'background-position': 'right center'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-soft': 'pulse-soft 2s ease-in-out infinite',
+				'gradient-x': 'gradient-x 15s ease infinite',
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'neural-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+				'habit-gradient': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+				'ai-gradient': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
 			}
 		}
 	},
