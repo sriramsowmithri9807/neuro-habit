@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# Neuro Habit
 
-## Project info
+Neuro Habit is a project designed to help users build and track positive habits using neuroscience-backed techniques.
 
-**URL**: https://lovable.dev/projects/9e6aa0e6-b3f7-448b-8650-d5d2bee13e4b
+## Features
 
-## How can I edit this code?
+- Habit tracking dashboard  
+- Progress analytics  
+- Reminders and notifications  
+- Customizable habit plans
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sriramsowmithri9807/neuro-habit.git
+   cd neuro-habit
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9e6aa0e6-b3f7-448b-8650-d5d2bee13e4b) and start prompting.
+2. **Install dependencies:**
+   ```bash
+   # Example for Node.js projects
+   npm install
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+3. **Run the project:**
+   ```bash
+   # Example for Node.js projects
+   npm start
+   ```
 
-**Use your preferred IDE**
+## Contributing
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## License
 
-Follow these steps:
+This project is licensed under the MIT License.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9e6aa0e6-b3f7-448b-8650-d5d2bee13e4b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Contact:** somwithrisriram7@gmail.com
