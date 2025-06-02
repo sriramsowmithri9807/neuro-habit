@@ -7,6 +7,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import Habits from "./pages/Habits";
+import Health from "./pages/habits/Health";
+import Learning from "./pages/habits/Learning";
+import Wellness from "./pages/habits/Wellness";
+import Productivity from "./pages/habits/Productivity";
 import Analytics from "./pages/Analytics";
 import Profile from "./pages/Profile";
 import PricingPage from "./pages/PricingPage";
@@ -25,6 +29,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/habits" element={<Habits />} />
+          <Route path="/habits/health" element={<Health />} />
+          <Route path="/habits/learning" element={<Learning />} />
+          <Route path="/habits/wellness" element={<Wellness />} />
+          <Route path="/habits/productivity" element={<Productivity />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/pricing" element={<PricingPage />} />
